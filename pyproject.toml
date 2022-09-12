@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "stablediffusionapi"
+version = "0.1.0"
+description = ""
+authors = ["Hir <45359174+GrykT@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+albumentations = "^1.2.1"
+diffusers = "0.2.4"
+gradio = "^3.2"
+numpy = "^1.23.2"
+einops = "^0.4.1"
+kornia = "^0.6.7"
+omegaconf = "^2.2.3"
+pytorch-lightning = "^1.7.4"
+torch-fidelity = "^0.3.0"
+transformers = "^4.21.3"
+ftfy = "^6.1.1"
+jsonmerge = "^1.8.0"
+resize-right = "^0.0.2"
+torchdiffeq = "^0.2.3"
+tqdm = "^4.64.1"
+Flask = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
